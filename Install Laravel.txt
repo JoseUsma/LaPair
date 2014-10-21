@@ -1,0 +1,32 @@
+Make sure php.ini has extension=php_openssl.dll enabled
+
+install laravel using composer 
+Download composer from https://getcomposer.org
+Composer-Setup.exe
+
+usually will be saved at c:programData\ComposerSetup\bin
+
+Then using command line:
+composer global require "laravel/installer=~1.1"
+
+1. Then from command line you can create projects by:
+>composer create-project laravel/laravel LaPair --prefer-dist
+>composer create-project laravel/LaPair --prefer-dist
+
+Copy and paste the folder created to your htdocs.
+
+2. or download the github
+http://laravel.com/docs/4.2/quick#installation
+(https://github.com/laravel/laravel)
+https://github.com/laravel/laravel/archive/master.zip
+
+Copy and paste the folder created to your htdocs.
+and from command line run from your new project folder:
+> composer install
+
+----
+
+
+http://localhost/tests/laravel-master/public/
+
+
