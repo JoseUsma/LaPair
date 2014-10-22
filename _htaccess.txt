@@ -1,0 +1,14 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_URI} /folder/folder/public/*
+RewriteRule (.*)$ /folder/folder/public/$l [L]
+
+http://www.youtube.com/watch?v=0ZNaiHMB22I
+htaccess file
+7:01
+
+
+
+http://www.youtube.com/watch?v=vo3Ry_hw090
+Change paths
++/- 5:00
